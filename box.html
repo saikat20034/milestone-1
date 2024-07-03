@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Inside a Box</title>
+    <style>
+        .outer-box {
+            width: 300px;
+            height: 300px;
+            padding: 20px;
+            background-color: lightblue;
+            border: 2px solid blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .inner-box {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box"></div>
+    </div>
+</body>
+</html>
